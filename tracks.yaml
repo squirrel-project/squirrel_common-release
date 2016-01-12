@@ -10,14 +10,14 @@ tracks:
       -i :{release_inc}
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: null
+    devel_branch: indigo_release_candidate
     last_version: 0.0.1
-    name: squirrel_common
+    name: upstream
     patches: null
     release_inc: '3'
-    release_repo_url: null
-    release_tag: 0.0.1
+    release_repo_url: https://github.com/squirrel-project/squirrel_common-release.git
+    release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://github.com/squirrel-project/squirrel_common.git
-    version: 0.0.1
+    version: :{auto}
