@@ -1,0 +1,7 @@
+# Stop tracking any object
+# author: Michael Zillich, zillich@acin.tuwien.ac.at
+
+---
+uint8 SUCCESS = 0
+uint8 FAILURE = 1
+uint8 result
