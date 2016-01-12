@@ -1,0 +1,12 @@
+Source: ros-indigo-squirrel-planning-knowledge-msgs
+Section: misc
+Priority: extra
+Maintainer: michael <michael.cashmore@kcl.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-diagnostic-msgs, ros-indigo-message-generation, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Homepage: http://www.squirrel-project.eu
+Standards-Version: 3.9.2
+
+Package: ros-indigo-squirrel-planning-knowledge-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-diagnostic-msgs, ros-indigo-message-runtime, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Description: Knowledge messages for adding and updating the model in the SQUIRREL knowledge base.
