@@ -1,0 +1,11 @@
+# For a camera mounted on a pan/tilt head:
+# Tell the robot where to point the camera by providing a position in the current
+# image, from image center.
+# Note that this is temporary, and can be overwritten by any new look command.
+# Note that there is no guarantee, that the robot will look actually there,
+# depening on other currently actuve look commands.
+
+float32 x   # x position pixels, from image center
+float32 y   # y position pixels, from image center
+string why  # a string indicating what caught the attention, e.g. "motion", "person", "face"
+---
