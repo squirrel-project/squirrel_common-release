@@ -1,7 +1,7 @@
 <package>
 
   <name>squirrel_common</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Definitions for mesages, services and actions. Startup packages for the robots</description>
   <maintainer email="michael.cashmore@kcl.ac.uk">michael</maintainer>
   <license>BSD</license>
