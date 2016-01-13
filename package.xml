@@ -2,7 +2,7 @@
 <package>
     <name>squirrel_localizer_msgs</name>
     
-  <version>0.0.1</version>
+  <version>0.0.2</version>
     
     <description>
       Contains the definition of the action related to the localization node
