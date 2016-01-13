@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>squirrel_manipulation_msgs</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Package defining actions for manipulation</description>
   <maintainer email="simon.hangl@uibk.ac.at">michael</maintainer>
   <maintainer email="michael.cashmore@kcl.ac.uk">michael</maintainer>
