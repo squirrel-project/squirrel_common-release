@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>squirrel_object_perception_msgs</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Messages, actions and services for object perception</description>
   <maintainer email="markus.bajones@acin.tuwien.ac.at">Markus Bajones</maintainer>
   <license>BSD</license>
