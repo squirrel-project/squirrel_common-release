@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>squirrel_mhand_msgs</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Provides message definitions</description>
 
   <maintainer email="evangelos.emmanouil@kcl.ac.uk">Evangelos Emmanouil</maintainer>

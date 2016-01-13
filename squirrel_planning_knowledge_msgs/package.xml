@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>squirrel_planning_knowledge_msgs</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Knowledge messages for adding and updating the model in the SQUIRREL knowledge base.</description>
   <maintainer email="michael.cashmore@kcl.ac.uk">michael</maintainer>
   <license>BSD</license>
