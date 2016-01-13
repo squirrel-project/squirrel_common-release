@@ -1,0 +1,22 @@
+ros-indigo-squirrel-prediction-msgs (0.0.3-0trusty) trusty; urgency=high
+
+  * added missed dependencies
+  * Contributors: buildbot-squirrel
+
+ -- michael <senka.krivic@uibk.ac.at>  Tue, 12 Jan 2016 23:00:00 -0000
+
+ros-indigo-squirrel-prediction-msgs (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- michael <senka.krivic@uibk.ac.at>  Tue, 12 Jan 2016 23:00:00 -0000
+
+ros-indigo-squirrel-prediction-msgs (0.0.1-0trusty) trusty; urgency=high
+
+  * new version of package.xml
+  * added msgs for missing values prediction
+  * Contributors: Senka Krivic
+
+ -- michael <senka.krivic@uibk.ac.at>  Tue, 15 Dec 2015 23:00:00 -0000
+
+
