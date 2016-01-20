@@ -15,7 +15,11 @@ add_message_files(
   FILES
   BBox.msg
   Classification.msg
+  DynamicObject.msg
+  LumpToDB.msg
+  ObjectToDB.msg
   Saliency.msg
+  StampedDynamicObject.msg
   ViewpointEntropy.msg
 )
 
@@ -27,6 +31,7 @@ add_service_files(
   CoveragePlanFile.srv
   EntropyMap.srv
   EntropyMapViz.srv
+  FindDynamicObjects.srv
   FixatePosition.srv
   GetSaliency3DSymmetry.srv
   GetSaliencyColor.srv
