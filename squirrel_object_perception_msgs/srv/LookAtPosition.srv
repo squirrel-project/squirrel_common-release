@@ -1,0 +1,10 @@
+# For a camera mounted on a pan/tilt head):
+# Tell the robot where to point the camera by providing a 3D position in robot
+# base coordinates.
+# Note that this is temporary, and can be overwritten by any new goal.
+# Note that there is no guarantee, that the robot will look actually there,
+# depening on other currently active goals.
+
+geometry_msgs/Point target  # 3D point, in robot base coordinates
+string why                  # a string indicating what caught the attention, e.g. "motion", "person", "face"
+---
