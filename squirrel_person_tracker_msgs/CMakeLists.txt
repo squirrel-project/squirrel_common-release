@@ -10,8 +10,12 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
  add_message_files(DIRECTORY msg
    FILES
    State.msg
-   HeadHandPoints.msg
-   
+   HeadHandPoints.msg   
+ )
+ 
+  add_service_files(DIRECTORY srv
+   FILES
+   SetBool.srv      
  )
 
 
