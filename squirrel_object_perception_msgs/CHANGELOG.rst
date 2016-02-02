@@ -2,6 +2,11 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.7 (2016-02-02)
+------------------
+* fixed recognition
+* Contributors: mzillich
+
 0.0.6 (2016-02-01)
 ------------------
 
