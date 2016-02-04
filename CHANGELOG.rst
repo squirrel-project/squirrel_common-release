@@ -2,6 +2,12 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.8 (2016-02-04)
+------------------
+* forgot the CMakelists file
+* added scene object
+* Contributors: mzillich
+
 0.0.7 (2016-02-02)
 ------------------
 * fixed recognition
