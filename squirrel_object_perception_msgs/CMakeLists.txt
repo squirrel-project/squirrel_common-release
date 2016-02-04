@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   BBox.msg
+  BCylinder.msg
   Classification.msg
   DynamicObject.msg
   LumpToDB.msg
@@ -21,6 +22,7 @@ add_message_files(
   Saliency.msg
   StampedDynamicObject.msg
   ViewpointEntropy.msg
+  SceneObject.msg
 )
 
 add_service_files(
