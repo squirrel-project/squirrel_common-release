@@ -2,6 +2,11 @@
 Changelog for package squirrel_planning_knowledge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2016-02-17)
+------------------
+* added SceneObject ms msgg
+* Contributors: mzillich
+
 0.0.8 (2016-02-04)
 ------------------
 
