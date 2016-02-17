@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   diagnostic_msgs
   sensor_msgs
   std_msgs
+  squirrel_object_perception_msgs
 )
 
 ## Generate services in the 'srv' folder
@@ -24,6 +25,7 @@ generate_messages(
    diagnostic_msgs
    sensor_msgs
    std_msgs
+   squirrel_object_perception_msgs
 )
 
 ## Declare a catkin package
@@ -33,6 +35,7 @@ catkin_package(
 	std_msgs 
 	sensor_msgs
 	diagnostic_msgs
+	squirrel_object_perception_msgs
 )
 
 ###########
