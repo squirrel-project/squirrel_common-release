@@ -1,8 +1,0 @@
-# For a camera mounted on a pan/tilt head):
-# Tell the robot where to point the camera by providing a 3D position in robot
-# base coordinates.
-# This goal will stay active until it is explicitly cleared with ClearFixation.
-
-geometry_msgs/Point target  # 3D point, in robot base coordinates
-string why                  # a string indicating what caught the attention, e.g. "motion", "person", "face"
----
