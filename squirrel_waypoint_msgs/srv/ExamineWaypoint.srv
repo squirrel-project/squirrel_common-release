@@ -1,0 +1,5 @@
+# object_pose of lump or object
+geometry_msgs/PoseStamped object_pose
+---
+geometry_msgs/PoseWithCovarianceStamped[] poses
+float64[] weights
