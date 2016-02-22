@@ -2,6 +2,12 @@
 Changelog for package squirrel_planning_knowledge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.11 (2016-02-22)
+-------------------
+* add SceneObject
+* Revert "added SceneObject"
+* Contributors: Nadia Hammoudeh García, ipa-nhg
+
 0.0.10 (2016-02-22)
 -------------------
 
