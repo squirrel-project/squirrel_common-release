@@ -2,6 +2,14 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.13 (2016-03-02)
+-------------------
+* Revert "Revert "added more tracking services""
+* Revert "added more tracking services"
+* added more tracking services
+* updated FindDynamicObjects service: using SceneObject now and returns three lists
+* Contributors: Edith Langer, Nadia Hammoudeh García, mzillich
+
 0.0.12 (2016-02-24)
 -------------------
 
