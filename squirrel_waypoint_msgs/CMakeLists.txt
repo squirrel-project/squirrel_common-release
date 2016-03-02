@@ -4,6 +4,7 @@ project(squirrel_waypoint_msgs)
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   message_generation
+  squirrel_object_perception_msgs
   std_msgs
 )
 
@@ -24,6 +25,7 @@ add_service_files(
 generate_messages(
   DEPENDENCIES
   geometry_msgs
+  squirrel_object_perception_msgs
   std_msgs
 )
 
@@ -34,6 +36,7 @@ catkin_package(
     #  DEPENDS system_lib
 
     geometry_msgs
+    squirrel_object_perception_msgs
     message_runtime
     std_msgs
 )
