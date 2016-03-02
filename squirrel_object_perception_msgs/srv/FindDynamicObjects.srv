@@ -3,4 +3,6 @@
 
 ---
 
-StampedDynamicObject[] dynamic_objects
+SceneObject[] dynamic_objects_added
+SceneObject[] dynamic_objects_updated
+SceneObject[] dynamic_objects_removed
