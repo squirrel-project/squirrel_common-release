@@ -62,6 +62,7 @@ add_service_files(
 add_action_files(
   FILES
   LookForObjects.action
+  GraspObject.action
 )
 
 generate_messages(
