@@ -2,6 +2,9 @@
 Changelog for package squirrel_planning_knowledge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.14 (2016-04-06)
+-------------------
+
 0.0.13 (2016-03-02)
 -------------------
 * Revert "Revert "added more tracking services""
