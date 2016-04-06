@@ -2,6 +2,14 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.14 (2016-04-06)
+-------------------
+* Merge pull request `#104 <https://github.com/squirrel-project/squirrel_common/issues/104>`_ from squirrel-project/indigo_dev
+  Update
+* fixed strings
+  added hri_msgs to meta package
+* Contributors: Nadia Hammoudeh García, mzillich
+
 0.0.13 (2016-03-02)
 -------------------
 
