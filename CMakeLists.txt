@@ -5,8 +5,10 @@ project(squirrel_manipulation_msgs)
 find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   actionlib
+  squirrel_object_perception_msgs
   std_msgs
   sensor_msgs
+  geometry_msgs
   message_generation
 )
 
@@ -25,7 +27,19 @@ find_package(catkin REQUIRED COMPONENTS
    Push.action
    PutDown.action
    Smash.action
+   GraspAction.action
  )
+
+add_message_files(
+  FILES
+  Grasp.msg
+)
+
+add_service_files(
+  FILES
+  GraspImport.srv
+)
+
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
@@ -33,6 +47,7 @@ find_package(catkin REQUIRED COMPONENTS
    std_msgs  # Or other packages containing msgs
    sensor_msgs
    actionlib_msgs
+   squirrel_object_perception_msgs
  )
 
 ###################################

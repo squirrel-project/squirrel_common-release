@@ -2,6 +2,26 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.15 (2016-04-10)
+-------------------
+* HAF grasp action
+* Merge remote-tracking branch 'upstream/indigo_dev' into indigo_dev
+  Conflicts:
+  squirrel_waypoint_msgs/package.xml
+* added BCylinder from TUW
+* typo
+* added object class
+* removed pose
+* slight changes; added grasp import service
+* added grasping action; grasp msg for mongodb
+* manual merge resolution
+* 0.0.4
+* update
+* 0.0.3
+* updated version
+* add CHANGELOG.rst
+* Contributors: Philipp Zech, buildbot-squirrel
+
 0.0.14 (2016-04-06)
 -------------------
 
