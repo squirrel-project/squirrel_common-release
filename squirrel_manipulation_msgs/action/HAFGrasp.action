@@ -1,0 +1,16 @@
+# Manipulation action messages: HAFGRASP
+
+# goal definition
+string object_id
+string frame_id
+geometry_msgs/Point point
+geometry_msgs/Vector3 approach
+---
+# result definition
+string result_status
+float32 stability
+---
+#feedback
+string current_phase
+string current_status
+int32 percent_completed
