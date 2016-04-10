@@ -1,0 +1,8 @@
+# Return possible object locations
+# author: Edith Langer, langer@acin.tuwien.ac.at
+
+---
+
+SceneObject[] dynamic_objects_added
+SceneObject[] dynamic_objects_updated
+SceneObject[] dynamic_objects_removed
