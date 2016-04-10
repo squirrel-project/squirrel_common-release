@@ -1,0 +1,6 @@
+string object_class
+string object_id
+string gripper_config
+float64 quality
+geometry_msgs/PoseStamped learned_object_pose
+geometry_msgs/PoseStamped gripper_pose

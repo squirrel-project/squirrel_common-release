@@ -2,6 +2,16 @@
 Changelog for package squirrel_planning_knowledge_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.15 (2016-04-10)
+-------------------
+* manual merge resolution
+* 0.0.4
+* update
+* 0.0.3
+* updated version
+* add CHANGELOG.rst
+* Contributors: Philipp Zech, buildbot-squirrel
+
 0.0.14 (2016-04-06)
 -------------------
 
