@@ -2,6 +2,19 @@
 Changelog for package squirrel_waypoint_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.15 (2016-04-10)
+-------------------
+* Merge remote-tracking branch 'upstream/indigo_dev' into indigo_dev
+  Conflicts:
+  squirrel_waypoint_msgs/package.xml
+* antother merge conflict thanks to the amazing git versioning system!
+* merge confilic
+* fixed CMakeLists.txt
+* merge conflict
+* fixed merge conflict
+* squirrel waypoints package and manipulation service
+* Contributors: Philipp Zech, m312z
+
 0.0.14 (2016-04-06)
 -------------------
 
