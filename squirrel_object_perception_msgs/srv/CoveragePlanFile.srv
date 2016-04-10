@@ -2,7 +2,7 @@
 # author: Tim Patten, t.patten@acfr.usyd.edu.au
 
 uint8 tree_depth          # the tree depth for the search
-float32 robot_height      # the rheight of the onboard sensor (assumes this is the top of the robot)
+float32 robot_height      # the height of the onboard sensor (assumes this is the top of the robot)
 float32 robot_outer_range # the outer range limit of the onboard kinect sensor
 float32 robot_inner_range # the inner range limit of the onboard kinext sensor
 float32 robot_radius      # the radius of the robot
