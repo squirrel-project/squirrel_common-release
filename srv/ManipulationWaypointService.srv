@@ -1,0 +1,15 @@
+# Request a distribution of positions from which to achieve a MANIPULATION task
+
+# probability distribution over manipulation type
+string[]  manipulation_type
+float64[] manipulation_type_weight
+
+# probability distribution over the object types
+string[]  object_type
+float64[] object_type_weight
+
+# object pose, in one-to-one mapping with object type
+geometry_msgs/PoseWithCovarianceStamped[] object_pose
+---
+geometry_msgs/PoseWithCovariance[] poses
+float64[] weights
