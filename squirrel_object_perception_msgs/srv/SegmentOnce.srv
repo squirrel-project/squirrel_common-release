@@ -1,0 +1,20 @@
+# Do one step in an incremental segmentation cycle, resulting in one more segmented object
+# author: Michael Zillich, zillich@acin.tuwien.ac.at
+
+---
+
+# Returns a set of segmented objects.
+# Note that even though we only perform one segmenation step, this might still
+# result in several objects being found in that step.
+
+# set of cluster index arrays (one array per object)
+std_msgs/Int32MultiArray[] clusters_indices
+
+# set of 3D poses extracted from the object points (centroid and some more or
+# less arbitrary orientation), given in the camera frame (i.e. the frame of
+# the original point cloud)
+geometry_msgs/PoseStamped[] poses
+
+# set of 3D object point clouds, given in the camera frame (i.e. the frame of
+# the original point cloud)
+sensor_msgs/PointCloud2[] points
