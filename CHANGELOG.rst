@@ -2,6 +2,25 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.15 (2016-04-10)
+-------------------
+* Merge pull request `#106 <https://github.com/squirrel-project/squirrel_common/issues/106>`_ from tpatten/indigo_dev
+  Active exploration as ros service
+* Merge remote-tracking branch 'upstream/indigo_dev' into indigo_dev
+* Added new field to specify if occlusions are considered or not in planning.
+* added another fixate service
+* Added variance as a field in the ros service request
+* Modified service to include robot details.
+* Added new service for active exploration.
+* manual merge resolution
+* whatever...untracked files appeared
+* 0.0.4
+* update
+* 0.0.3
+* updated version
+* add CHANGELOG.rst
+* Contributors: Nadia Hammoudeh García, Philipp Zech, Tim Patten Desktop, buildbot-squirrel, mzillich
+
 0.0.14 (2016-04-06)
 -------------------
 * Add new action for haf_grasping integration
