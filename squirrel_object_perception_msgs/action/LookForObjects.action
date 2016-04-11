@@ -14,6 +14,8 @@ geometry_msgs/Pose pose
 ---
 # result definition
 string result_status
+SceneObject[] objects_added
+SceneObject[] objects_updated
 ---
 # feedback definition
 string current_phase
