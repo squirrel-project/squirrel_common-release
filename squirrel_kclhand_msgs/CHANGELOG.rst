@@ -2,6 +2,9 @@
 Changelog for package squirrel_kclhand_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.16 (2016-04-11)
+-------------------
+
 0.0.15 (2016-04-10)
 -------------------
 * manual merge resolution
