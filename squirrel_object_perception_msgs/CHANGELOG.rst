@@ -2,6 +2,12 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.16 (2016-04-11)
+-------------------
+* added id to lump tracker service
+* added to arrays as result (added/updated objects)
+* Contributors: Edith Langer
+
 0.0.15 (2016-04-10)
 -------------------
 * Merge pull request `#106 <https://github.com/squirrel-project/squirrel_common/issues/106>`_ from tpatten/indigo_dev
