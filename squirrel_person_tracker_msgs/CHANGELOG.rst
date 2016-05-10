@@ -2,6 +2,11 @@
 Changelog for package squirrel_person_tracker_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.18 (2016-05-10)
+-------------------
+* add skeleton msgs
+* Contributors: Peter Regier
+
 0.0.17 (2016-04-14)
 -------------------
 
