@@ -67,6 +67,12 @@ find_package(catkin REQUIRED COMPONENTS
    ResetOdometry.srv
    SetEncoderPosition.srv
    SetGripperState.srv 
+   ClearFixation.srv
+   FixatePanTilt.srv
+   FixatePosition.srv
+   LookAtImagePosition.srv
+   LookAtPanTilt.srv
+   LookAtPosition.srv
 )
 
 ## Generate actions in the 'action' folder
