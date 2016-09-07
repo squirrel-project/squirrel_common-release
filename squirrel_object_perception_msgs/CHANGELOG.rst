@@ -2,6 +2,9 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.20 (2016-09-07)
+-------------------
+
 0.0.19 (2016-07-11)
 -------------------
 * Move service definitions to correct module
