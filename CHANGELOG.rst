@@ -2,6 +2,18 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.20 (2016-09-07)
+-------------------
+* cleaning package.xml and CMakeLists
+* Update package.xml
+* Merge pull request `#131 <https://github.com/squirrel-project/squirrel_common/issues/131>`_ from federico-b/indigo_dev
+  ALUFR: added messages for 3d localization
+* added messages for 3d nav
+* Merge pull request `#122 <https://github.com/squirrel-project/squirrel_common/issues/122>`_ from ipa-nhg/Restruc
+  package restructuration and clean up
+* package restructuration
+* Contributors: Federico Boniardi, Nadia Hammoudeh García, ipa-nhg, ipa-rmb
+
 0.0.19 (2016-07-11)
 -------------------
 
