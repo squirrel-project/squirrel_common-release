@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="wheel_gazebo" params="name">
+      <gravity>true</gravity>
+      <self_collide>false</self_collide>
+    <!--gazebo reference="${name}_link">
+      <mu1 value="100.0" /> 
+      <mu2 value="100.0" /> 
+      <kp  value="1000000.0" />
+      <kd  value="1.0" />
+      <fdir1>0 1 0</fdir1>
+      <maxContacts>1</maxContacts>
+    </gazebo-->
+  </xacro:macro>
+  
+  <xacro:macro name="base_gazebo" params="name">
+    <gazebo reference="${name}_link">
+      <material>Gazebo/Grey</material>
+      <gravity>true</gravity>
+      <self_collide>false</self_collide>
+      <sensor name='${name}_contact_sensor' type='contact'>
+        <always_on>true</always_on>
+        <update_rate>100.0</update_rate>
+        <contact>
+          <collision>${name}_link_collision</collision>
+          <topic>${name}_bumper</topic>
+        </contact>
+        <plugin name="${name}_gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">
+          <frameName>world</frameName>
+          <bumperTopicName>${name}_bumper</bumperTopicName>
+        </plugin>
+      </sensor>
+    </gazebo>
+  </xacro:macro>
+
+</robot>
