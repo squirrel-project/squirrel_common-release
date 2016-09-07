@@ -16,8 +16,8 @@ tracks:
     patches: null
     release_inc: '1'
     release_repo_url: https://github.com/squirrel-project/squirrel_common-release.git
-    release_tag: 0.0.19
+    release_tag: 0.0.20
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://github.com/squirrel-project/squirrel_common.git
-    version: 0.0.19
+    version: 0.0.20
