@@ -2,6 +2,16 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.20 (2016-09-07)
+-------------------
+* added geometry_msgs dependency
+* added joint ptp action server messages
+* added ptp action lib msgs
+* Merge pull request `#122 <https://github.com/squirrel-project/squirrel_common/issues/122>`_ from ipa-nhg/Restruc
+  package restructuration and clean up
+* package restructuration
+* Contributors: ipa-nhg, ipa-rmb, shangl
+
 0.0.19 (2016-07-11)
 -------------------
 
