@@ -28,6 +28,8 @@ find_package(catkin REQUIRED COMPONENTS
    PutDown.action
    Smash.action
    GraspAction.action
+   Ptp.action
+   JointPtp.action
  )
 
 add_message_files(
