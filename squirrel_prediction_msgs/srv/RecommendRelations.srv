@@ -1,8 +1,8 @@
 # add object to scene database
-string inputFile
-string outputFile
-bool initilization
+string data_path
+string input_file
+string output_file
+int32 number_of_columns
 ---
-uint8 SUCCESS = 0
-uint8 FAILURE = 1
-uint8 result
+#output
+bool finished
