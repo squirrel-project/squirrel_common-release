@@ -1,0 +1,6 @@
+# update an object in the scene database
+squirrel_object_perception_msgs/SceneObject object
+---
+uint8 SUCCESS = 0
+uint8 FAILURE = 1
+uint8 result
