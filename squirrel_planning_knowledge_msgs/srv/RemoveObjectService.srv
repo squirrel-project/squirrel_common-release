@@ -1,0 +1,9 @@
+# remove an object with a given id from the scene database
+
+# the object's unique meaningless ID, e.g. 'object376', not to be confused with
+# any meaningful label, object name etc.
+string id
+---
+uint8 SUCCESS = 0
+uint8 FAILURE = 1
+uint8 result
