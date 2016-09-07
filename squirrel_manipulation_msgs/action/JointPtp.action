@@ -1,0 +1,10 @@
+# Manipulation action messages: jointptp
+
+# goal definition
+std_msgs/Float64MultiArray joints
+---
+# result definition
+string result_status
+---
+#feedback
+string current_status
