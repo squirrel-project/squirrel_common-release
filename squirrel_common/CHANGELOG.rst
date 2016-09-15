@@ -2,6 +2,12 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.21 (2016-09-15)
+-------------------
+* Merge remote-tracking branch 'origin/indigo_dev' into indigo_dev
+* added squirrel dynamic filkter msgs
+* Contributors: Ayush Dewan, Federico Boniardi
+
 0.0.20 (2016-09-07)
 -------------------
 * cleaning package.xml and CMakeLists
