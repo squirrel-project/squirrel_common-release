@@ -1,3 +1,45 @@
+## squirrel_common (indigo) - 0.0.21-0
+
+The packages in the `squirrel_common` repository were released into the `indigo` distro by running `/usr/bin/bloom-release squirrel_common --track indigo --ros-distro indigo --edit` on `Thu, 15 Sep 2016 10:04:52 -0000`
+
+These packages were released:
+- `robotino_description`
+- `robotino_msgs`
+- `squirrel_3d_localizer_msgs`
+- `squirrel_3d_mapping_msgs`
+- `squirrel_common`
+- `squirrel_dynamic_filter_msgs`
+- `squirrel_hri_msgs`
+- `squirrel_kclhand_msgs`
+- `squirrel_localizer_msgs`
+- `squirrel_manipulation_msgs`
+- `squirrel_mhand_msgs`
+- `squirrel_navigation_msgs`
+- `squirrel_object_perception_msgs`
+- `squirrel_person_tracker_msgs`
+- `squirrel_planning_knowledge_msgs`
+- `squirrel_prediction_msgs`
+- `squirrel_rgbd_mapping_msgs`
+- `squirrel_sketch_interface_msgs`
+- `squirrel_speech_msgs`
+- `squirrel_vad_msgs`
+- `squirrel_waypoint_msgs`
+
+Version of package(s) in repository `squirrel_common`:
+- upstream repository: https://github.com/squirrel-project/squirrel_common.git
+- release repository: https://github.com/squirrel-project/squirrel_common-release.git
+- rosdistro version: `0.0.18-0`
+- old version: `0.0.20-0`
+- new version: `0.0.21-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## squirrel_common (indigo) - 0.0.20-0
 
 The packages in the `squirrel_common` repository were released into the `indigo` distro by running `/usr/bin/bloom-release squirrel_common --track indigo --ros-distro indigo --edit` on `Wed, 07 Sep 2016 15:14:45 -0000`
