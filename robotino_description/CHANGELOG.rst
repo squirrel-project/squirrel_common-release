@@ -2,6 +2,9 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.21 (2016-09-15)
+-------------------
+
 0.0.20 (2016-09-07)
 -------------------
 * simplify collision model
