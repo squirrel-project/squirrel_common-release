@@ -1,0 +1,10 @@
+ros-indigo-squirrel-dynamic-filter-msgs (0.0.21-0trusty) trusty; urgency=high
+
+  * changed the service file
+  * added dynamic filters
+  * added the service
+  * Contributors: Ayush Dewan
+
+ -- Ayush Dewan <dewan@cs.uni-freiburg.de>  Wed, 14 Sep 2016 22:00:00 -0000
+
+
