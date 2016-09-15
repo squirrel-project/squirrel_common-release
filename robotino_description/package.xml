@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>robotino_description</name>
-  <version>0.0.20</version>
+  <version>0.0.21</version>
   <description>The robotino_description package</description>
 
   <license>BSD</license>
@@ -15,6 +15,5 @@
   <run_depend>gazebo_ros</run_depend>
   <run_depend>xacro</run_depend>
   <run_depend>kclhand_description</run_depend>
-  <export>
-  </export>
+
 </package>
