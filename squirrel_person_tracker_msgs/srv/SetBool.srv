@@ -1,0 +1,4 @@
+bool track # e.g. true=run, false=stop;
+---
+bool success   # true = runs, false=stops
+string message # informational, e.g. for error messages
