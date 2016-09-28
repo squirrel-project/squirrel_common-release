@@ -1,0 +1,10 @@
+# Manipulation action messages: ptp
+
+# goal definition
+geometry_msgs/Pose pose
+---
+# result definition
+string result_status
+---
+#feedback
+string current_status
