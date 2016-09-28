@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>squirrel_hri_msgs</name>
+  <version>0.0.21</version>
+  <description>All HRI related stuff (except speech which is extra)</description>
+
+  <maintainer email="michael.zillich@tuwien.ac.at"> Michael Zillich </maintainer>
+  <maintainer email="florian.voigtlaender@festo.com"> Florian Voigtländer </maintainer>
+
+  <license>LGPLv2.1</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
