@@ -2,6 +2,13 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.22 (2016-09-28)
+-------------------
+* Merge pull request `#143 <https://github.com/squirrel-project/squirrel_common/issues/143>`_ from squirrel-project/indigo_dev
+  Update release
+* added softhand grasp
+* Contributors: Nadia Hammoudeh García, Philipp Zech
+
 0.0.21 (2016-09-15)
 -------------------
 
