@@ -1,0 +1,21 @@
+ros-indigo-squirrel-3d-localizer-msgs (0.0.22-0trusty) trusty; urgency=high
+
+
+
+ -- Federico Boniardi <boniardi@cs.uni-freiburg.de>  Tue, 27 Sep 2016 22:00:00 -0000
+
+ros-indigo-squirrel-3d-localizer-msgs (0.0.21-0trusty) trusty; urgency=high
+
+
+
+ -- Federico Boniardi <boniardi@cs.uni-freiburg.de>  Wed, 14 Sep 2016 22:00:00 -0000
+
+ros-indigo-squirrel-3d-localizer-msgs (0.0.20-0trusty) trusty; urgency=high
+
+  * cleaning package.xml and CMakeLists
+  * added messages for 3d nav
+  * Contributors: Federico Boniardi, ipa-nhg
+
+ -- Federico Boniardi <boniardi@cs.uni-freiburg.de>  Tue, 06 Sep 2016 22:00:00 -0000
+
+
