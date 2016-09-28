@@ -1,7 +1,0 @@
-string object_class
-string object_id
-string gripper_config
-geometry_msgs/PoseStamped learned_object_pose
-string grasps_file
----
-bool success
