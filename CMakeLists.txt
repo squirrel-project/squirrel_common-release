@@ -42,6 +42,7 @@ add_service_files(
   GetSaliencySurfaceOrientation.srv
   GetSaliencySymmetry.srv
   Recognize.srv
+  Recognize2d.srv
   Segment.srv
   SegmentInit.srv
   SegmentOnce.srv

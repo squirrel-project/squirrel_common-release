@@ -2,6 +2,20 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.23 (2017-02-13)
+-------------------
+* added message for 2d recognizer
+* Contributors: Edith Langer
+
+0.0.22 (2016-09-28)
+-------------------
+
+0.0.21 (2016-09-15)
+-------------------
+
+0.0.20 (2016-09-07)
+-------------------
+
 0.0.19 (2016-07-11)
 -------------------
 * Move service definitions to correct module
