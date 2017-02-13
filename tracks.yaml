@@ -7,7 +7,9 @@ tracks:
       --replace
     - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
-      -i :{release_inc}
+      -i :{release_inc} --os-name ubuntu
+    - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
+      -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: indigo_release_candidate
@@ -16,8 +18,8 @@ tracks:
     patches: null
     release_inc: '0'
     release_repo_url: https://github.com/squirrel-project/squirrel_common-release.git
-    release_tag: 0.0.22
+    release_tag: 0.0.23
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://github.com/squirrel-project/squirrel_common.git
-    version: 0.0.22
+    version: 0.0.23
