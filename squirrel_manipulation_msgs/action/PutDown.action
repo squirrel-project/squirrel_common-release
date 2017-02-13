@@ -2,7 +2,7 @@
 
 # goal definition
 string destination_id
-geometry_msgs/Pose destPoseSE2
+geometry_msgs/PoseStamped destPoseSE2
 ---
 # result definition
 string result_status
