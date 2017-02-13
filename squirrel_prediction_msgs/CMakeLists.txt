@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   RecommendRelations.srv
+  RecommendRelations.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
