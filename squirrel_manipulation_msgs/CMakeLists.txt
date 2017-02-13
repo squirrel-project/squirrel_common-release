@@ -30,6 +30,7 @@ find_package(catkin REQUIRED COMPONENTS
    GraspAction.action
    Ptp.action
    JointPtp.action
+   Handover.action
  )
 
 add_message_files(
