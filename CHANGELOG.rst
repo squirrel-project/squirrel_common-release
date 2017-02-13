@@ -2,6 +2,35 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.23 (2017-02-13)
+-------------------
+* changed to pose stamped
+* typo fixed
+* created new services for prediction and added comments for manipulation action
+* cmakelist added
+* action Handover added
+* Contributors: Philipp Zech, Senka Krivic
+
+0.0.22 (2016-09-28)
+-------------------
+* Merge pull request `#143 <https://github.com/squirrel-project/squirrel_common/issues/143>`_ from squirrel-project/indigo_dev
+  Update release
+* added softhand grasp
+* Contributors: Nadia Hammoudeh García, Philipp Zech
+
+0.0.21 (2016-09-15)
+-------------------
+
+0.0.20 (2016-09-07)
+-------------------
+* added geometry_msgs dependency
+* added joint ptp action server messages
+* added ptp action lib msgs
+* Merge pull request `#122 <https://github.com/squirrel-project/squirrel_common/issues/122>`_ from ipa-nhg/Restruc
+  package restructuration and clean up
+* package restructuration
+* Contributors: ipa-nhg, ipa-rmb, shangl
+
 0.0.19 (2016-07-11)
 -------------------
 
