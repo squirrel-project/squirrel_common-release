@@ -2,6 +2,11 @@
 Changelog for package robotino_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.23 (2017-02-13)
+-------------------
+* review cmakelists
+* Contributors: ipa-nhg
+
 0.0.22 (2016-09-28)
 -------------------
 
