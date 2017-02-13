@@ -28,6 +28,9 @@ find_package(catkin REQUIRED COMPONENTS
    PutDown.action
    Smash.action
    GraspAction.action
+   Ptp.action
+   JointPtp.action
+   Handover.action
  )
 
 add_message_files(
@@ -38,6 +41,7 @@ add_message_files(
 add_service_files(
   FILES
   GraspImport.srv
+  SoftHandGrasp.srv
 )
 
 
