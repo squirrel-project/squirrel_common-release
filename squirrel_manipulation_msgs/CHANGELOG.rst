@@ -2,6 +2,15 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.23 (2017-02-13)
+-------------------
+* changed to pose stamped
+* typo fixed
+* created new services for prediction and added comments for manipulation action
+* cmakelist added
+* action Handover added
+* Contributors: Philipp Zech, Senka Krivic
+
 0.0.22 (2016-09-28)
 -------------------
 * Merge pull request `#143 <https://github.com/squirrel-project/squirrel_common/issues/143>`_ from squirrel-project/indigo_dev
