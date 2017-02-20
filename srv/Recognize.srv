@@ -13,13 +13,13 @@ std_msgs/String[] ids
 geometry_msgs/Transform[] transforms
 
 # confidence value defined as ratio of visible points
-float32[] confidences
+float32[] confidence
 
 # centroid of the cluster
-geometry_msgs/Point32[] centroids
+geometry_msgs/Point32[] centroid
 
 # bounding box of the cluster
-squirrel_object_perception_msgs/BBox[] bboxes
+squirrel_object_perception_msgs/BBox[] bbox
 
 # point cloud of the model transformed into camera coordinates
-sensor_msgs/PointCloud2[] model_clouds
+sensor_msgs/PointCloud2[] models_cloud
