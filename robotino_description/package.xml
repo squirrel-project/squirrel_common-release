@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>robotino_description</name>
-  <version>0.0.23</version>
+  <version>0.0.24</version>
   <description>The robotino_description package</description>
 
   <license>BSD</license>
