@@ -2,4 +2,4 @@
 # author: Aitor Aldoma, aldoma@acin.tuwien.ac.at
 
 # 8 points of the bounding box
-geometry_msgs/Point32[] points
+geometry_msgs/Point32[] point

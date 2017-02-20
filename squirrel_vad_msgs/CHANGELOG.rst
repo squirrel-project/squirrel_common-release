@@ -2,6 +2,11 @@
 Changelog for package squirrel_vad_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.24 (2017-02-20)
+-------------------
+* comments are added
+* Contributors: batikim09
+
 0.0.23 (2017-02-13)
 -------------------
 * Merge branch 'indigo_dev' into indigo_dev
