@@ -66,7 +66,6 @@ add_action_files(
 generate_messages(
   DEPENDENCIES
   actionlib_msgs
-  actionlib_msgs
   geometry_msgs
   octomap_msgs
   sensor_msgs
