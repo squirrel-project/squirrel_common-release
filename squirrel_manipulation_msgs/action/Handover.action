@@ -1,0 +1,15 @@
+# Manipulation action messages: HANDOVER
+
+# goal definition
+# type 'give' or 'take'
+string action_type
+int32 handover_type
+---
+# result definition
+# type 'given', 'taken' or 'failed'
+string result_status
+---
+#feedback
+string current_phase
+string current_status
+int32 percent_completed
