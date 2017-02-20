@@ -1,0 +1,77 @@
+ros-indigo-squirrel-hri-msgs (0.0.24-0saucy) saucy; urgency=high
+
+  * add missing deps. cleanup with roscompile
+  * fix action definition
+  * update action definitions
+  * Add child following action
+  * Contributors: Markus Bajones, Unknown
+
+ -- Michael Zillich <michael.zillich@tuwien.ac.at>  Sun, 19 Feb 2017 23:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.23-0saucy) saucy; urgency=high
+
+
+
+ -- Michael Zillich <michael.zillich@tuwien.ac.at>  Sun, 12 Feb 2017 23:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.22-0saucy) saucy; urgency=high
+
+
+
+ -- Michael Zillich <michael.zillich@tuwien.ac.at>  Tue, 27 Sep 2016 22:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.21-0saucy) saucy; urgency=high
+
+
+
+ -- Michael Zillich <michael.zillich@tuwien.ac.at>  Wed, 14 Sep 2016 22:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.20-0saucy) saucy; urgency=high
+
+  * Merge pull request #122 <https://github.com/squirrel-project/squirrel_common/issues/122> from ipa-nhg/Restruc
+    package restructuration and clean up
+  * package restructuration
+  * Contributors: ipa-nhg, ipa-rmb
+
+ -- Michael Zillich <michael.zillich@tuwien.ac.at>  Tue, 06 Sep 2016 22:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.19-0saucy) saucy; urgency=high
+
+
+
+ -- Florian Voigtländer <michael.zillich@tuwien.ac.at>  Sun, 10 Jul 2016 22:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.18-0saucy) saucy; urgency=high
+
+
+
+ -- Florian Voigtländer <michael.zillich@tuwien.ac.at>  Mon, 09 May 2016 22:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.17-0saucy) saucy; urgency=high
+
+
+
+ -- Florian Voigtländer <michael.zillich@tuwien.ac.at>  Wed, 13 Apr 2016 22:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.16-0saucy) saucy; urgency=high
+
+
+
+ -- Florian Voigtländer <michael.zillich@tuwien.ac.at>  Sun, 10 Apr 2016 22:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.15-0saucy) saucy; urgency=high
+
+
+
+ -- Florian Voigtländer <michael.zillich@tuwien.ac.at>  Sat, 09 Apr 2016 22:00:00 -0000
+
+ros-indigo-squirrel-hri-msgs (0.0.14-0saucy) saucy; urgency=high
+
+  * fixed strings
+    added hri_msgs to meta package
+  * added expression
+  * Contributors: mzillich
+
+ -- Florian Voigtländer <michael.zillich@tuwien.ac.at>  Tue, 05 Apr 2016 22:00:00 -0000
+
+
