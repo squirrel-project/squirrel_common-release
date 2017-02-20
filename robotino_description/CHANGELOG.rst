@@ -2,6 +2,9 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.24 (2017-02-20)
+-------------------
+
 0.0.23 (2017-02-13)
 -------------------
 * Temporal fix: ignore the visual model of the shell
