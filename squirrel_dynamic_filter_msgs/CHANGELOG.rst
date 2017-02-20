@@ -2,6 +2,9 @@
 Changelog for package squirrel_dynamic_filter_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.24 (2017-02-20)
+-------------------
+
 0.0.23 (2017-02-13)
 -------------------
 * added new msg file for dynamic filtering

@@ -2,6 +2,14 @@
 Changelog for package squirrel_hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.24 (2017-02-20)
+-------------------
+* add missing deps. cleanup with roscompile
+* fix action definition
+* update action definitions
+* Add child following action
+* Contributors: Markus Bajones, Unknown
+
 0.0.23 (2017-02-13)
 -------------------
 
