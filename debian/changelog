@@ -1,0 +1,10 @@
+ros-indigo-squirrel-view-controller-msgs (0.0.24-0saucy) saucy; urgency=high
+
+  * Delete .gitignore
+  * add enable flag
+  * add messages for view controller
+  * Contributors: Markus Bajones
+
+ -- Markus Bajones <bajones@acin.tuwien.ac.at>  Sun, 19 Feb 2017 23:00:00 -0000
+
+
