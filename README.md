@@ -1,3 +1,6 @@
+
+Travis-CI: [![Build Status](https://travis-ci.org/squirrel-project/squirrel_common.svg?branch=indigo_dev)](https://travis-ci.org/squirrel-project/squirrel_common)
+
 squirrel_common
 ===============
 
