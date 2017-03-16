@@ -1,0 +1,2 @@
+Header header
+squirrel_person_tracker_msgs/Skeleton[] skeleton_vector
