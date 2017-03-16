@@ -7,5 +7,5 @@
 
 float32 x   # x position pixels, from image center
 float32 y   # y position pixels, from image center
-string why  # a string indicating what caught the attention, e.g. "motion", "person", "face"
+string reason  # a string indicating what caught the attention, e.g. "motion", "person", "face"
 ---
