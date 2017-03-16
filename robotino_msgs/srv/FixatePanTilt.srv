@@ -4,5 +4,5 @@
 
 float32 pan     # pan angle, in [rad]
 float32 tilt    # tilt angle, in [rad]
-string why      # a string indicating what caught the attention, e.g. "motion", "person", "face"
+string reason      # a string indicating what caught the attention, e.g. "motion", "person", "face"
 ---
