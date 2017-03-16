@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>softhand_description</name>
+  <version>0.0.24</version>
+  <description>The softhand_description package</description>
+
+  <maintainer email="philipp.zech@uibk.ac.at">Philipp Zech</maintainer>
+  <license>GPLv2</license>
+
+  <author>Philipp Zech</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend >xacro</run_depend>
+
+  <export>
+  </export>
+</package>
