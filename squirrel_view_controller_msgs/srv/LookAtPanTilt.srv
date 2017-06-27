@@ -1,0 +1,10 @@
+# For a camera mounted on a pan/tilt head):
+# Tell the robot where to point the camera by providing a pair of pan/tilt values
+# Note that this is temporary, and can be overwritten by any new goal.
+# Note that there is no guarantee, that the robot will look actually there,
+# depening on other currently active goals.
+
+float32 pan
+float32 tilt
+string reason                  # a string indicating what caught the attention, e.g. "motion", "person", "face"
+---
