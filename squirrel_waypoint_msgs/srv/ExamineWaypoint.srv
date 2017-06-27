@@ -4,3 +4,4 @@ squirrel_object_perception_msgs/BCylinder bounding_cylinder
 ---
 geometry_msgs/PoseWithCovarianceStamped[] poses
 float64[] weights
+float64[] tiltAngle # camera tilt angles (lower bound)
