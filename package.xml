@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>squirrel_hri_msgs</name>
-  <version>0.0.25</version>
+  <version>0.0.26</version>
   <description>All HRI related stuff (except speech which is extra)</description>
 
   <maintainer email="michael.zillich@tuwien.ac.at"> Michael Zillich </maintainer>
