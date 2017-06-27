@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
    SkeletonJoint.msg
    Skeleton.msg
    SkeletonVector.msg 
+   ShirtMsg.msg
  )
  
   add_service_files(DIRECTORY srv

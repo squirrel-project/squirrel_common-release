@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   message_generation
   std_msgs
+  nav_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -47,12 +48,17 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   GlobalPlannerStats.msg
+  CellMSG.msg
+  ObjectMSG.msg
+  ObjectBufferMSG.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
   PlannerUpdate.srv
+  ClutterInfo.srv
+  ClutterPlanner.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -67,6 +73,7 @@ generate_messages(
   DEPENDENCIES
   geometry_msgs  # Or other packages containing msgs
   std_msgs
+  nav_msgs
 )
 
 ################################################
