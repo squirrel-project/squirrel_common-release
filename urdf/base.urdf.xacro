@@ -4,11 +4,7 @@
   <xacro:include filename="$(find robotino_description)/urdf/base.gazebo.xacro" />
   <xacro:include filename="$(find robotino_description)/urdf/base.transmission.xacro" />
 
-  <xacro:macro name="base" params="name has_8dof">
-
-  <!--###### IF 8 DOF the joints can be moved ######-->
-  <xacro:if value="${has_8dof}">
-
+  <xacro:macro name="base" params="name">
   <link name="origin">
     <inertial>
       <mass value="10" />
@@ -24,7 +20,7 @@
     <child link="${name}_link"/>
     <origin xyz="0 0 0" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit upper="10" lower="-10" effort="190" velocity="30" />
+    <limit upper="20" lower="-20" effort="190" velocity="30" />
    </joint>
 
    <link name="${name}_link">
@@ -42,9 +38,9 @@
     <child link="${name}_linkx"/>
     <origin xyz="0 0 0" rpy="0 0 0" />
     <axis xyz="1 0 0" />
-    <limit upper="10" lower="-10" effort="0" velocity="0" />
+    <limit upper="20" lower="-20" effort="0" velocity="0" />
     <dynamics damping="1000.0" friction="1000.0"/>
-    <safety_controller k_velocity="10" k_position="15" soft_lower_limit="-2.0" soft_upper_limit="0.5" />
+    <safety_controller k_velocity="10" k_position="15" soft_lower_limit="-10.0" soft_upper_limit="10.0" />
    </joint>
    <joints_transmission name="base_jointx" />
 
@@ -53,9 +49,9 @@
     <child link="${name}_linky"/>
     <origin xyz="0 0 0" rpy="0 0 0" />
     <axis xyz="0 1 0" />
-    <limit upper="10" lower="-10" effort="0" velocity="0" />
+    <limit upper="20" lower="-20" effort="0" velocity="0" />
     <dynamics damping="1000.0" friction="1000.0"/>
-    <safety_controller k_velocity="10" k_position="15" soft_lower_limit="-2.0" soft_upper_limit="0.5" />
+    <safety_controller k_velocity="10" k_position="15" soft_lower_limit="-10.0" soft_upper_limit="10.0" />
    </joint>
    <joints_transmission name="base_jointy" />
 
@@ -66,7 +62,7 @@
     <axis xyz="0 0 1" />
     <limit upper="3.14" lower="-3.14" effort="0" velocity="0" />
     <dynamics damping="1000.0" friction="1000.0"/>
-    <safety_controller k_velocity="10" k_position="15" soft_lower_limit="-2.0" soft_upper_limit="0.5" />
+    <safety_controller k_velocity="10" k_position="15" soft_lower_limit="-3.14" soft_upper_limit="3.14" />
    </joint>
    <joints_transmission name="base_jointz" />
 
@@ -152,72 +148,7 @@
    </wheel>
    <wheel_transmission name="wheel2" />
    <wheel_gazebo name="wheel2" />
-  </xacro:if>
 
- <!--###### ELSE the joints are fixed ######-->
-  <xacro:unless value="${has_8dof}">
-  <link name="${name}_link" />
-
-   <joint name="${name}_body_joint" type="fixed">
-    <parent link="${name}_link"/>
-    <child link="${name}_body_link"/>
-    <origin xyz="0 0 0" rpy="0 0 0" />
-   </joint>
-
-  <link name="${name}_body_link">
-    <inertial>
-      <mass value="10" />
-      <origin xyz="0 0 0" />
-      <inertia ixx="75.0" ixy="0.0" ixz="0.0"
-       iyy="75.0" iyz="0.0"
-       izz="75.0" />
-    </inertial>
-    <visual>
-      <origin xyz="0.01 0 0" rpy="0 0 0"/>
-      <geometry>
-       <mesh filename="package://robotino_description/meshes/RobotinoBody.dae"/>
-      </geometry>
-    </visual>
-    <collision>
-      <origin xyz="0.01 0 0" rpy="0 0 0"/>
-      <geometry>
-       <mesh filename="package://robotino_description/meshes/RobotinoBody.stl"/>
-      </geometry>
-    </collision>
-   </link>
-
-   <base_gazebo name="base" />
-
-  <gazebo>
-    <plugin name="base_controller" filename="libgazebo_ros_planar_move.so">
-      <commandTopic>cmd_vel</commandTopic>
-      <odometryTopic>odom</odometryTopic>
-      <odometryFrame>odom</odometryFrame>
-      <odometryRate>20.0</odometryRate>
-      <robotBaseFrame>base_link</robotBaseFrame>
-    </plugin>
-  </gazebo>
-
-   <wheel name="wheel0" parent="base_link">
-    <origin xyz="0.095 0.14 0.02" rpy="0 0 ${M_PI/3}"/>
-    <axis xyz="-1 0 0"/>
-   </wheel>
-   <wheel_transmission name="wheel0" />
-   <wheel_gazebo name="wheel0" />
-   <wheel name="wheel1" parent="base_link">
-    <origin xyz="-0.16 0 0.02" rpy="0 0 0"/>
-    <axis xyz="1 0 0"/>
-   </wheel>
-   <wheel_transmission name="wheel1" />
-   <wheel_gazebo name="wheel1" />
-   <wheel name="wheel2" parent="base_link">
-    <origin xyz="0.105 -0.15 0.02" rpy="0 0 -${M_PI/3}"/>
-    <axis xyz="-1 0 0"/>
-   </wheel>
-   <wheel_transmission name="wheel2" />
-   <wheel_gazebo name="wheel2" />
-
-  </xacro:unless>
   </xacro:macro>
 
   <!-- WHEEL -->
@@ -247,7 +178,6 @@
        <cylinder length="0.04" radius="0.04"/>
       </geometry>
     </collision>
-    
    </link>
   </xacro:macro>
 
