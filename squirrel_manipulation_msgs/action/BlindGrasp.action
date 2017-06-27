@@ -3,6 +3,7 @@
 # goal definition
 string object_id
 geometry_msgs/PoseStamped heap_center_pose
+geometry_msgs/PoseStamped heap_center_pose_static
 squirrel_object_perception_msgs/BCylinder heap_bounding_cylinder
 sensor_msgs/PointCloud2 heap_point_cloud
 ---
