@@ -1,8 +1,0 @@
-# For a camera mounted on a pan/tilt head):
-# Tell the robot where to point the camera in terms of direct pan/tilt angles.
-# This goal will stay active until it is explicitly cleared with ClearFixation.
-
-float32 pan     # pan angle, in [rad]
-float32 tilt    # tilt angle, in [rad]
-string reason      # a string indicating what caught the attention, e.g. "motion", "person", "face"
----
