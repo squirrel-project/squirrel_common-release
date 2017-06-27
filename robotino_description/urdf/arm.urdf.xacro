@@ -33,7 +33,7 @@
       <child link="${name}link1"/>
       <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
       <axis xyz="0 1 0" />
-      <limit upper="1.9" lower="-1.9" effort="190" velocity="30" />
+      <limit upper="1.5" lower="-1.2" effort="190" velocity="30" />
     </joint>
 
     <link name="${name}link1">
@@ -62,7 +62,7 @@
       <child link="${name}motor2"/>
       <origin xyz="0.0 0.0 0.25" rpy="0 0 0" />
       <axis xyz="0 1 0" />
-      <limit upper="1.9" lower="-1.9" effort="190" velocity="30" />
+      <limit upper="2.3" lower="-1.7" effort="190" velocity="30" />
     </joint>
 
     <link name="${name}motor2">
@@ -108,7 +108,7 @@
       <child link="${name}link3"/>
       <origin xyz="0.0 0.0 0.158" rpy="0 0 0" />
       <axis xyz="0 0 1" />
-      <limit upper="1.7" lower="-1.7" effort="190" velocity="30" />
+      <limit upper="1.8" lower="-1.8" effort="190" velocity="30" />
     </joint>
 
     <link name="${name}link3">
@@ -137,7 +137,7 @@
       <child link="${name}link4"/>
       <origin xyz="0.0 -0.057 0.065" rpy="0 0 0" />
       <axis xyz="0 1 0" />
-      <limit upper="1.7" lower="-1.7" effort="160" velocity="30" />
+      <limit upper="1.9" lower="-1.9" effort="160" velocity="30" />
     </joint>
 
     <link name="${name}link4">
@@ -166,7 +166,7 @@
       <child link="${name}link5"/>
       <origin xyz="0.0 -0.027 0.035" rpy="0 0 0" />
       <axis xyz="0 0 1" />
-      <limit upper="1.7" lower="-1.7" effort="160" velocity="30" />
+      <limit upper="2.9" lower="-2.9" effort="160" velocity="30" />
     </joint>
 
     <link name="${name}link5">
