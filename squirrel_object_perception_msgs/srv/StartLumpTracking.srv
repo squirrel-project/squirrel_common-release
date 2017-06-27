@@ -1,9 +1,0 @@
-# Start tracking a lump of stuff on the floor
-# author: Michael Zillich, zillich@acin.tuwien.ac.at
-
-std_msgs/String object_id
-
----
-uint8 SUCCESS = 0
-uint8 FAILURE = 1
-uint8 result
