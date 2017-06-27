@@ -1,0 +1,12 @@
+# Fixate on Pose action definition
+# author: Markus Bajones (bajo), bajones@acin.tuwien.ac.at
+
+# goal definition
+geometry_msgs/PoseStamped pose
+bool enable
+---
+# result definition
+int32 result_status
+---
+# feedback definition
+int32 feedback_status 
