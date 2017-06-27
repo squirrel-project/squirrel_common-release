@@ -1,7 +1,0 @@
-geometry_msgs/PoseStamped start
-geometry_msgs/PoseStamped goal
-nav_msgs/OccupancyGrid grid
-squirrel_navigation_msgs/ObjectMSG[] obstacles_in
----
-geometry_msgs/PoseStamped[] path
-squirrel_navigation_msgs/ObjectMSG[] obstacles_out
