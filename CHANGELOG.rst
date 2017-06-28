@@ -2,6 +2,9 @@
 Changelog for package squirrel_hri_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.27 (2017-06-28)
+-------------------
+
 0.0.24 (2017-02-20)
 -------------------
 * add missing deps. cleanup with roscompile
