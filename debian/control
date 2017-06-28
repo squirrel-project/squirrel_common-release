@@ -1,0 +1,12 @@
+Source: ros-indigo-squirrel-view-controller-msgs
+Section: misc
+Priority: extra
+Maintainer: Markus Bajones <bajones@acin.tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-squirrel-view-controller-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: Message defintions for the viewcontroller(pan/tilt) on the Squirrel robot
