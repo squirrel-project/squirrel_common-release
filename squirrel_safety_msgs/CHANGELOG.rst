@@ -2,6 +2,14 @@
 Changelog for package squirrel_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.27 (2017-06-28)
+-------------------
+* Merge pull request `#203 <https://github.com/squirrel-project/squirrel_common/issues/203>`_ from squirrel-project/indigo_dev
+  fix errors safety_msgs
+* update package.xml file
+* fix CMakeLists file
+* Contributors: Nadia Hammoudeh García, ipa-nhg
+
 0.0.26 (2017-06-27)
 -------------------
 * added squirrel safety msgs for safety node
