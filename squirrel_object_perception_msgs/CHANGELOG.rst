@@ -2,6 +2,11 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.28 (2017-09-04)
+-------------------
+* added robot tracker and BBox for findDynamicObjects service
+* Contributors: Edith Langer
+
 0.0.27 (2017-06-28)
 -------------------
 
