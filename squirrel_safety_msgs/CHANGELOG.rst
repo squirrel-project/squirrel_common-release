@@ -2,6 +2,9 @@
 Changelog for package squirrel_safety_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.28 (2017-09-04)
+-------------------
+
 0.0.27 (2017-06-28)
 -------------------
 * Merge pull request `#203 <https://github.com/squirrel-project/squirrel_common/issues/203>`_ from squirrel-project/indigo_dev
