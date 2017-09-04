@@ -186,7 +186,9 @@
     <transmission name="${name}base_trans">
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${name}base_joint">
+        <hardwareInterface>VelocityJointInterface</hardwareInterface>
         <hardwareInterface>PositionJointInterface</hardwareInterface>
+        <!--hardwareInterface>EffortJointInterface</hardwareInterface-->
       </joint>
       <actuator name="${name}base_motor">
         <mechanicalReduction>1</mechanicalReduction>
@@ -199,7 +201,9 @@
     <transmission name="arm_${number}_trans">
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${name}joint${number}">
+        <hardwareInterface>VelocityJointInterface</hardwareInterface>
         <hardwareInterface>PositionJointInterface</hardwareInterface>
+        <!--hardwareInterface>EffortJointInterface</hardwareInterface-->
       </joint>
       <actuator name="arm_${number}_motor">
         <mechanicalReduction>1</mechanicalReduction>
