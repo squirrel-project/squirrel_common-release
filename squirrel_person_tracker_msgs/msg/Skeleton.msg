@@ -1,0 +1,5 @@
+Header header
+squirrel_person_tracker_msgs/SkeletonJoint[] skeleton_joints
+geometry_msgs/PointStamped pointingPoint
+bool isPointing
+int32 user_id
