@@ -10,6 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   get_footprint.srv
+  dump_footprint.srv
 )
 
 generate_messages(
