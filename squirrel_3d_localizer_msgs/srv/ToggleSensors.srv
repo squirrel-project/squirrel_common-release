@@ -1,0 +1,3 @@
+std_msgs/Bool use_laser_scanner
+std_msgs/Bool use_depth_camera
+---
