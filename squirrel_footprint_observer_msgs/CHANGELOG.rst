@@ -2,6 +2,12 @@
 Changelog for package squirrel_footprint_observer_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.28 (2017-09-04)
+-------------------
+* merge successful
+* added service
+* Contributors: Federico Boniardi
+
 0.0.27 (2017-06-28)
 -------------------
 
