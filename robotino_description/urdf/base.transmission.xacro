@@ -19,9 +19,13 @@
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${name}" >
         <hardwareInterface>VelocityJointInterface</hardwareInterface>
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+        <!--hardwareInterface>EffortJointInterface</hardwareInterface-->
       </joint>
       <actuator name="${name}_motor">
         <hardwareInterface>VelocityJointInterface</hardwareInterface>
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+        <!--hardwareInterface>EffortJointInterface</hardwareInterface-->
         <mechanicalReduction>${ 624/35 * 80/18}</mechanicalReduction>
       </actuator>
     </transmission>
