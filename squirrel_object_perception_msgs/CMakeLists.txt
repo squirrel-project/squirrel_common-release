@@ -28,6 +28,7 @@ add_message_files(
 add_service_files(
   FILES
   ActiveExplorationNBV.srv
+  CheckWaypoint.srv
   Classify.srv
   CoveragePlan.srv
   CoveragePlanFile.srv
@@ -55,6 +56,8 @@ add_service_files(
   StopInstanceTracking.srv
   StartLumpTracking.srv
   StopLumpTracking.srv
+  StartRobotTracking.srv
+  StopRobotTracking.srv
 )
 
 add_action_files(
