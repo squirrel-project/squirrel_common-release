@@ -1,0 +1,6 @@
+# Start tracking the robots position
+# author: Edith Langer, langer@acin.tuwien.ac.at
+
+---
+
+geometry_msgs/Point[] positions
