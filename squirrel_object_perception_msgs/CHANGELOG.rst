@@ -2,6 +2,13 @@
 Changelog for package squirrel_object_perception_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.29 (2017-09-05)
+-------------------
+* updated srvs in CMakeLists.txt
+* update CMakeLists
+* added CheckWaypoint.srv (used with octomaps)
+* Contributors: Edith Langer, ipa-nhg
+
 0.0.28 (2017-09-04)
 -------------------
 * added robot tracker and BBox for findDynamicObjects service
