@@ -7,6 +7,16 @@
   </xacro:macro>
 
   <xacro:macro name="base_gazebo" params="name">
+    <gazebo reference="origin">
+      <material>Gazebo/Grey</material>
+      <gravity>true</gravity>
+      <self_collide>false</self_collide>
+    </gazebo>
+    <gazebo reference="base_link">
+      <material>Gazebo/Grey</material>
+      <gravity>true</gravity>
+      <self_collide>false</self_collide>
+    </gazebo>
     <gazebo reference="${name}_linkx">
       <material>Gazebo/Grey</material>
       <gravity>true</gravity>
@@ -18,11 +28,6 @@
       <self_collide>false</self_collide>
     </gazebo>
     <gazebo reference="${name}_linkz">
-      <material>Gazebo/Grey</material>
-      <gravity>true</gravity>
-      <self_collide>false</self_collide>
-    </gazebo>
-    <gazebo reference="origin">
       <material>Gazebo/Grey</material>
       <gravity>true</gravity>
       <self_collide>false</self_collide>
