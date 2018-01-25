@@ -2,6 +2,24 @@
 Changelog for package robotino_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.30 (2018-01-25)
+-------------------
+* revert motor directions
+* joint directions review
+* Merge branch 'indigo_dev' into ArmReview
+* updated velocities and effrots
+* review motor directions for the arm
+* udpated joint limits for folding the arm
+* added a calibration parameter for the neck to the shell
+* added gazebo controllers for the shell
+* test shell model on real robot
+* update urdf to support calibration
+* add door model
+* updated the collision model of the shell
+* update base model
+* review collisions
+* Contributors: Nadia Hammoudeh García, Philipp Zech, Richard Bormann, Thomas Fäulhammer, ipa-nhg
+
 0.0.29 (2017-09-05)
 -------------------
 
