@@ -1,0 +1,5 @@
+uint64 uid
+squirrel_navigation_msgs/CellMSG center_cell
+float32 center_wx
+float32 center_wy
+squirrel_navigation_msgs/CellMSG[] cell_vector
