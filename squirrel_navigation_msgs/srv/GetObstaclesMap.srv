@@ -1,0 +1,4 @@
+---
+geometry_msgs/Point32[] obstacles_positions # Position of occupied cells (subject to map rasterization)
+bool[] obstacles_indicator                  # Indicator of pixel occupancy (true -> occupied, false -> free)
+geometry_msgs/Pose2D map_origin             # Origin of the map.
