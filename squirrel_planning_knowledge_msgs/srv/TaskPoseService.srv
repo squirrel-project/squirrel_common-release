@@ -1,0 +1,4 @@
+# request a set waypoints from which to achieve
+geometry_msgs/PointStamped target
+---
+geometry_msgs/PoseWithCovariance[] poses
