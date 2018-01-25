@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<root xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find robotino_description)/urdf/kinect.urdf.xacro" />
+
+  <xacro:macro name="shell" params="name parent *origin">
+      
+    <joint name="${name}_base_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${name}_base_link" />
+      <insert_block name="origin" />
+    </joint>
+
+   <link name="${name}_base_link">
+      <inertial>
+        <mass value="0.01"/>
+        <origin xyz="0 0 0"/>
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 -0.06" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://robotino_description/meshes/base_shell.stl"/>
+        </geometry>
+        <material name="lightGrey">
+          <color rgba="0.9 0.9 0.9 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0.05" rpy="0 0 -0.7"/>
+        <geometry>
+          <mesh filename="package://robotino_description/meshes/base_shell_collision.stl"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <gazebo reference="${name}_link">
+      <gravity>true</gravity>
+      <self_collide>false</self_collide>
+      <material>Gazebo/LightGrey</material>
+    </gazebo>
+
+    <joint name="neck_pan_joint" type="revolute">
+      <origin xyz="0 0 0.676" rpy="0 0 0"/>
+      <parent link="${parent}"/>
+      <child link="neck_pan_link" />      
+      <axis xyz="0 0 1" />
+      <calibration rising="0.1"/>
+      <limit effort="100" lower="-3.14" upper="3.14" velocity="1.4"/>
+    </joint>
+
+   <link name="neck_pan_link">
+      <inertial>
+        <mass value="0.01"/>
+        <origin xyz="0 0 0"/>
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://robotino_description/meshes/neck.stl"/>
+        </geometry>
+        <material name="lightGrey">
+          <color rgba="0.9 0.9 0.9 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://robotino_description/meshes/neck.stl"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="neck_tilt_joint" type="revolute">
+      <origin xyz="0.192 0 0" rpy="1.57 0 0"/>
+      <parent link="neck_pan_link"/>
+      <child link="neck_tilt_link" />      
+      <axis xyz="0 0 1" />
+      <calibration rising="0.1"/>
+      <limit effort="100" lower="-1.19" upper="0.52" velocity="1.4"/>
+    </joint>
+
+   <link name="neck_tilt_link">
+      <inertial>
+        <mass value="0.01"/>
+        <origin xyz="0 0 0"/>
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+      </inertial>
+    </link>
+
+    <joint name="head_joint" type="revolute">
+      <origin xyz="0 0 0.715" rpy="0 0 0"/>
+      <parent link="${parent}"/>
+      <child link="head_link" />      
+      <axis xyz="0 0 1" />
+      <calibration rising="0.1"/>
+      <limit effort="100" lower="-3.14" upper="3.14" velocity="1.4"/>
+    </joint>
+
+   <link name="head_link">
+      <inertial>
+        <mass value="0.01"/>
+        <origin xyz="0 0 0"/>
+        <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://robotino_description/meshes/head.stl"/>
+        </geometry>
+        <material name="lightGrey">
+          <color rgba="0.9 0.9 0.9 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://robotino_description/meshes/head.stl"/>
+        </geometry>
+      </collision>
+    </link>
+
+  </xacro:macro>
+
+</root>
+
