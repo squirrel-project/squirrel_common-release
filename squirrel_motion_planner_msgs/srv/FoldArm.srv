@@ -1,0 +1,10 @@
+bool check_octomap_collision
+bool check_self_collision
+---
+int32 SUCCESS=0
+int32 NO_OCTOMAP_AVAILABLE=1
+int32 ARM_ALREADY_FOLDED=2
+int32 COLLISION_FOLDING=3
+int32 ERROR_8DOF_PLANNING=4
+
+int32 result
