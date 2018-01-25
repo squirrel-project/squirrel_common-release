@@ -1,27 +1,35 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package squirrel_footprint_observer_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package squirrel_motion_planner_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.0.30 (2018-01-25)
 -------------------
+* unify versions
+* update changelog
+* Redefined manipulation action. Added frame id for motion planner service.
+* updated squirrel_motion_planner_msgs
+* added service files for the 8dof planner
+* Contributors: Tim Patten, ipa-nhg, philkark
+
+* Redefined manipulation action. Added frame id for motion planner service.
+* updated squirrel_motion_planner_msgs
+* added service files for the 8dof planner
+* Contributors: Tim Patten, philkark
 
 0.0.29 (2017-09-05)
 -------------------
 
 0.0.28 (2017-09-04)
 -------------------
-* merge successful
-* added service
-* Contributors: Federico Boniardi
 
 0.0.27 (2017-06-28)
 -------------------
 
+0.0.26 (2017-06-27)
+-------------------
+
 0.0.25 (2017-03-16)
 -------------------
-* prepare squirrel_common for a new release
-* added services for footprint observer
-* Contributors: Federico Boniardi, buildbot-squirrel
 
 0.0.24 (2017-02-20)
 -------------------
