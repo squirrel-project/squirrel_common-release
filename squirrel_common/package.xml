@@ -1,7 +1,7 @@
 <package>
 
   <name>squirrel_common</name>
-  <version>0.0.29</version>
+  <version>0.0.30</version>
   <description>Definitions for mesages, services and actions. Startup packages for the robots</description>
   <maintainer email="nadia.hammoudeh.garcia@ipa.fraunhofer.de">Nadia Hammoudeh Garcia</maintainer>
   <license>BSD</license>
@@ -19,6 +19,7 @@
   <run_depend>squirrel_kclhand_msgs</run_depend> 
   <run_depend>squirrel_manipulation_msgs</run_depend>
   <run_depend>squirrel_mhand_msgs</run_depend>
+  <run_depend>squirrel_motion_planner_msgs</run_depend>
   <run_depend>squirrel_navigation_msgs</run_depend>
   <run_depend>squirrel_object_perception_msgs</run_depend>
   <run_depend>squirrel_person_tracker_msgs</run_depend>
