@@ -1,0 +1,13 @@
+# Return possible object locations
+# author: Edith Langer, langer@acin.tuwien.ac.at
+
+#optional for octomap bounding box iterator
+#set the dimension to float min resp. float max, if you want to compare the whole octomap in that dimension
+geometry_msgs/Point min
+geometry_msgs/Point max
+
+---
+
+SceneObject[] dynamic_objects_added
+SceneObject[] dynamic_objects_updated
+SceneObject[] dynamic_objects_removed
