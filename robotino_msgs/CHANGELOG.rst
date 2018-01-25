@@ -2,6 +2,11 @@
 Changelog for package robotino_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.30 (2018-01-25)
+-------------------
+* Add new service
+* Contributors: bajo
+
 0.0.29 (2017-09-05)
 -------------------
 
