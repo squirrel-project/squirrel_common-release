@@ -1,0 +1,4 @@
+std_msgs/Empty clutter_request
+---
+Header header
+squirrel_navigation_msgs/ObjectMSG[] objects
