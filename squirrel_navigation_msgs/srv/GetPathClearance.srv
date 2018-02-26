@@ -1,6 +1,0 @@
-nav_msgs/Path plan                    # The query path
----
-geometry_msgs/Point32[] proximity_map # Proximity map of the path that associate to a waypoint the closest obstacles (occupied cell)
-float32[] proximities                 # Clearance of every waypoint.
-float32 clearance                     # Clearance of the path (min of proximities).
-int32 clearance_waypoint              # Waypoint that is closest to an obstacle (argmin of proximities).
