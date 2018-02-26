@@ -11,9 +11,12 @@ uint8 look_for_object
 string id
 string category
 geometry_msgs/Pose pose
+
+geometry_msgs/PoseStamped look_at_pose
 ---
 # result definition
 string result_status
+bool used_wizard
 SceneObject[] objects_added
 SceneObject[] objects_updated
 ---

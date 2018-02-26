@@ -2,6 +2,9 @@
 Changelog for package squirrel_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.31 (2018-02-26)
+-------------------
+
 0.0.30 (2018-01-25)
 -------------------
 * Merge pull request `#241 <https://github.com/squirrel-project/squirrel_common/issues/241>`_ from squirrel-project/indigo_dev
