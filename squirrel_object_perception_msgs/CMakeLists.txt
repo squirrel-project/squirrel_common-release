@@ -64,7 +64,6 @@ add_action_files(
   FILES
   LookForObjects.action
   GraspObject.action
-  RecognizeObjects.action
 )
 
 generate_messages(
