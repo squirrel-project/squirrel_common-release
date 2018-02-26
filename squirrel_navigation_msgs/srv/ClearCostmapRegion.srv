@@ -1,0 +1,3 @@
+geometry_msgs/Polygon region # The region that is to be cleared up  
+duration sleep               # Sleeping time before starting to clear the costmap
+---
