@@ -1,0 +1,4 @@
+duration timeout            # maximum time allocated 
+---
+duration sampling_time      # elapsed time for resampling   
+int32 num_sampled_particles # num of particles sampled
