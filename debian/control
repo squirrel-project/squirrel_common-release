@@ -1,0 +1,12 @@
+Source: ros-indigo-squirrel-planning-msgs
+Section: misc
+Priority: extra
+Maintainer: Bram Ridder <bram.ridder@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-diagnostic-msgs, ros-indigo-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-squirrel-planning-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-diagnostic-msgs, ros-indigo-message-runtime
+Description: Messages, actions and services for planning
