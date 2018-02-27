@@ -1,26 +1,24 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package squirrel_motion_planner_msgs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package squirrel_planning_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.0.32 (2018-02-27)
 -------------------
+* unify version tags
+* update changelog
+* review dependencies
+* Planning specific messages to call services.
+* Contributors: Bram Ridder, ipa-nhg
+
+* review dependencies
+* Planning specific messages to call services.
+* Contributors: Bram Ridder, ipa-nhg
 
 0.0.31 (2018-02-26)
 -------------------
 
 0.0.30 (2018-01-25)
 -------------------
-* unify versions
-* update changelog
-* Redefined manipulation action. Added frame id for motion planner service.
-* updated squirrel_motion_planner_msgs
-* added service files for the 8dof planner
-* Contributors: Tim Patten, ipa-nhg, philkark
-
-* Redefined manipulation action. Added frame id for motion planner service.
-* updated squirrel_motion_planner_msgs
-* added service files for the 8dof planner
-* Contributors: Tim Patten, philkark
 
 0.0.29 (2017-09-05)
 -------------------
