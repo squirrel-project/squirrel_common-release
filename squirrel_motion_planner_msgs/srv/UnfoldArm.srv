@@ -1,9 +1,0 @@
-bool check_octomap_collision
-bool check_self_collision
----
-int32 SUCCESS=0
-int32 NO_OCTOMAP_AVAILABLE=1
-int32 ARM_NOT_FOLDED=2
-int32 COLLISION_UNFOLDING=3
-
-int32 result
