@@ -1,5 +1,16 @@
 # Manipulation action messages: MANIPULATION
 
+# types are
+# open
+# close
+# grasp
+# place
+# joints
+
+# later:
+# drop
+# pick
+
 # goal definition
 string manipulation_type
 string object_id
