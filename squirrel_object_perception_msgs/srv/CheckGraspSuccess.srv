@@ -1,0 +1,15 @@
+# Check visually if a grasp attempt was successful 
+# Choose one out of three possible ways to check grasp success
+# The pose of the SceneObject is obligatory. It is used to point the camera to the position the object was before.
+# author: Edith Langer, langer@acin.tuwien.ac.at
+
+uint8 OCTOMAP = 0	#if mongodb is maintained, the object id can be used for checking, otherwise bounding cylinder or just pose
+uint8 SEGMENTATION = 1	#pose of segmented clusters will be used to check against the object's pose
+uint8 RECOGNITION = 2	#if category is set, check if the recognizer finds that category again, otherwise bounding cylinder or pose are used
+
+uint8 check_type	#0: octomap differencing, 1: popout segmentation, 2: recognition
+SceneObject object	#contains information of the grasped object (pose (is obligatory!), size, category, ...)
+
+---
+
+bool success	#true if the object can not be seen anymore at the position it was before
