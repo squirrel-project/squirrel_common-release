@@ -28,6 +28,7 @@ add_message_files(
 add_service_files(
   FILES
   ActiveExplorationNBV.srv
+  CheckGraspSuccess.srv
   CheckWaypoint.srv
   Classify.srv
   CoveragePlan.srv
@@ -62,6 +63,7 @@ add_service_files(
 
 add_action_files(
   FILES
+  FindLumps.action
   LookForObjects.action
   GraspObject.action
 )

@@ -2,6 +2,11 @@
 Changelog for package squirrel_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.33 (2018-03-08)
+-------------------
+* Message definition changed.
+* Contributors: Tim Patten
+
 0.0.32 (2018-02-27)
 -------------------
 
