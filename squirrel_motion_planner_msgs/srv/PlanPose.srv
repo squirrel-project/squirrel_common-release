@@ -2,6 +2,7 @@ string frame_id
 float64[] joints
 bool check_octomap_collision
 bool check_self_collision
+string[] disabled_octomap_link_collision
 float64 max_planning_time
 bool fold_arm
 float64 min_distance_before_folding
