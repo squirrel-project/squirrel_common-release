@@ -2,6 +2,11 @@
 Changelog for package squirrel_motion_planner_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.33 (2018-03-08)
+-------------------
+* udpated squirrel_motion_planner_msgs to disable single octomap collisions
+* Contributors: Philipp Karkowski
+
 0.0.32 (2018-02-27)
 -------------------
 
