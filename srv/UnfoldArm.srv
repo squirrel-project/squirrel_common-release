@@ -1,5 +1,6 @@
 bool check_octomap_collision
 bool check_self_collision
+string[] disabled_octomap_link_collision
 ---
 int32 SUCCESS=0
 int32 NO_OCTOMAP_AVAILABLE=1
