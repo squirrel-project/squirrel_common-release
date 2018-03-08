@@ -1,4 +1,0 @@
-# use "stdout/stderr" to print on terminal. 
-string ostream
----
-bool succeeded
