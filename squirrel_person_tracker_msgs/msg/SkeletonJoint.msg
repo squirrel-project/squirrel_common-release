@@ -1,0 +1,3 @@
+geometry_msgs/TransformStamped joint
+float32 orientation_confidence
+float32 position_confidence
