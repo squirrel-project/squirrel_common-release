@@ -3,11 +3,12 @@
 
 #optional for octomap bounding box iterator
 #set the dimension to float min resp. float max, if you want to compare the whole octomap in that dimension
+#set everything to 0 if you want to compare the whole octomap (default)
 geometry_msgs/Point min
 geometry_msgs/Point max
 
 ---
-
+bool database_empty	#is set to true if the database was empty when the service was called
 SceneObject[] dynamic_objects_added
 SceneObject[] dynamic_objects_updated
 SceneObject[] dynamic_objects_removed
