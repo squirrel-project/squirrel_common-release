@@ -1,0 +1,16 @@
+# Recognize objects in a 2D image
+# author: Edith Langer, langer@acin.tuwien.ac.at
+
+# the RGB image from the camera view
+sensor_msgs/Image image
+
+---
+
+# model ids of recognized objects
+std_msgs/String[] ids
+
+# confidence values
+float32[] confidences
+
+# poses of recognized objects
+geometry_msgs/Transform[] transforms
